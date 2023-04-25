@@ -8,7 +8,7 @@ import java.util.List;
 @Repository
 public interface CustomerServiceInterface {
 
-    Customer saveCustomer(Customer customer);
+    Customer addCustomer(Customer customer);
 
     List<Customer> getAllCustomers();
 
